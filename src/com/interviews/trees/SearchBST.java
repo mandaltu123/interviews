@@ -5,6 +5,21 @@ package com.interviews.trees;
  */
 public class SearchBST {
 
+    /**
+     * Search is a recursive function.
+     * It takes 2 parameters root and key. Key is the element that we are trying to
+     * search in the BST.
+     * since it is a binary tree, we know that the left child is always less than the
+     * parent and right is always greater.
+     * In this recursive function:
+     * 1. we go to root.
+     * 2. if key is greater than root, we go to right else go left
+     * 3. when the key == current node's data we return that node [this is the node we are trying to search]
+     *
+     * @param root
+     * @param key
+     * @return
+     */
     public Node search(Node root, int key) {
 
         if (root == null) {

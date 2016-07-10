@@ -33,14 +33,16 @@ public class BinaryTree {
 
     public Node addNode(Node root, int data) {
 
-        Node previous = null; // parent node where the new node to be inserted
-        Node current = root;
         Node toBeInserted = new Node(data);
 
         if (root == null) {
             root = toBeInserted;
             return root;
         }
+
+        Node previous = null; // parent node where the new node to be inserted
+        Node current = root;
+
         //This loop finds the node where the new node
         //to be inserted. But we are yet to say whether
         // new node will go to the left or right
@@ -53,7 +55,7 @@ public class BinaryTree {
             }
         }
 
-
+        // inserting new node at the right place
         if (data > previous.data) {
             previous.right = toBeInserted;
         } else {

@@ -28,7 +28,7 @@ public class SizeOfBinaryTree {
      * time complexity is O(n) since we have to visit all the nodes
      *
      * @param root
-     * @return
+     * @return size
      */
     public int size(Node root) {
         if (root == null) {

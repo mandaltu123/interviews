@@ -15,7 +15,7 @@ public class SearchBST {
      * 1. we go to root.
      * 2. if key is greater than root, we go to right else go left
      * 3. when the key == current node's data we return that node [this is the node we are trying to search]
-     *
+     * time complexity is log(n)
      * @param root
      * @param key
      * @return

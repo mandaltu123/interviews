@@ -38,7 +38,8 @@ public class CheckSameBinaryTree {
     /**
      * we compare root of each tree and then check their left children and right children.
      * if at each node roots are same and the children are same true is returned else false
-     * is returned
+     * is returned.
+     * time complexity is O(n) since we are visiting all the nodes and comparing them.
      *
      * @param root1
      * @param root2

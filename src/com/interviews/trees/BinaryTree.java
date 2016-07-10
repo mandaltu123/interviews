@@ -9,10 +9,9 @@ import com.sun.source.tree.Tree;
 /**
  * Node class represents each node in a binary tree.
  * Each node has got 3 elements in it, left, right and data.
- *
  */
 
-class Node{
+class Node {
     Node left;
     Node right;
     int data;
@@ -38,7 +37,7 @@ public class BinaryTree {
         Node current = root;
         Node toBeInserted = new Node(data);
 
-        if(root == null) {
+        if (root == null) {
             root = toBeInserted;
             return root;
         }
@@ -47,7 +46,7 @@ public class BinaryTree {
         // new node will go to the left or right
         while (current != null) {
             previous = current;
-            if(data > current.data) {
+            if (data > current.data) {
                 current = current.right;
             } else {
                 current = current.left;
@@ -55,7 +54,7 @@ public class BinaryTree {
         }
 
 
-        if(data > previous.data) {
+        if (data > previous.data) {
             previous.right = toBeInserted;
         } else {
             previous.left = toBeInserted;
@@ -64,8 +63,17 @@ public class BinaryTree {
         return root;
     }
 
+    /**
+     * Height of a binary tree
+     * Idea is : check the left heigh
+     * check right height
+     * whichever is max , add 1 to that and then return
+     *
+     * @param root
+     * @return: returns height of the tree
+     */
     public int height(Node root) {
-        if(root == null) {
+        if (root == null) {
             return 0;
         }
         int leftHeight = height(root.left);

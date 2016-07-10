@@ -65,7 +65,7 @@ public class BinaryTree {
 
     /**
      * Height of a binary tree
-     * Idea is : check the left heigh
+     * Idea is : check the left height
      * check right height
      * whichever is max , add 1 to that and then return
      *

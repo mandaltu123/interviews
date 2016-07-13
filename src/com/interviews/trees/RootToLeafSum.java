@@ -9,7 +9,7 @@ import java.util.List;
  * This class find the path from root to leaf node
  * where a give sum exists.
  * we pass sum, compare that with root and then pass (sum - root) to its either left or right till we reach leaf nodes.
- * we do the same for each node and it return true in whatever path the sum exist and adds that path (each node in that
+ * we do the same for each node and it returns true in whatever path the sum exist and adds that path (each node in that
  * path)from leaf to an arraylist.
  * <p/>
  * time complexity is O(n) as we need to visit each node
@@ -35,7 +35,7 @@ public class RootToLeafSum {
         List<Integer> result = new ArrayList<Integer>();
         boolean hasSumInThePath = new RootToLeafSum().rootToLeafSumFinder(root, 22, result);
         System.out.println("hasSumInThePath ? " + hasSumInThePath);
-        if (hasSumInThePath == true && result != null && result.size() > 0) {
+        if (hasSumInThePath == true && result.size() > 0) {
             for (Integer data : result) {
                 System.out.print(data + " ");
             }

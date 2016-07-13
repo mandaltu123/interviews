@@ -1,4 +1,4 @@
-package com.interviews.stacks;
+package com.tuhin.interviews.stacks;
 
 /**
  * Created by tuhinmandal on 04/07/16.

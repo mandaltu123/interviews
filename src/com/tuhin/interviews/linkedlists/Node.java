@@ -1,4 +1,4 @@
-package com.interviews.linkedlists;
+package com.tuhin.interviews.linkedlists;
 
 /**
  * Each node of a linkedlist

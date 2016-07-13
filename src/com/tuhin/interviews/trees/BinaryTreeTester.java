@@ -1,4 +1,4 @@
-package com.interviews.trees;
+package com.tuhin.interviews.trees;
 
 /**
  * Created by tuhinmandal on 10/07/16.

@@ -1,4 +1,4 @@
-package com.interviews.trees;
+package com.tuhin.interviews.trees;
 
 import java.util.Stack;
 

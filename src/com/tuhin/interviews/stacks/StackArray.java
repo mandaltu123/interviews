@@ -1,4 +1,4 @@
-package com.interviews.stacks;
+package com.tuhin.interviews.stacks;
 
 import java.util.ArrayList;
 

@@ -1,10 +1,8 @@
-package com.interviews.trees;
+package com.tuhin.interviews.trees;
 
 /**
  * Created by tuhinmandal on 10/07/16.
  */
-
-import com.sun.source.tree.Tree;
 
 /**
  * Node class represents each node in a binary tree.

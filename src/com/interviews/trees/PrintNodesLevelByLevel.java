@@ -17,9 +17,14 @@ public class PrintNodesLevelByLevel {
      * If the popped value is null (since in the beginning we added one null), we check whether the queue is
      * empty or not. If empty we are done.
      * If not empty we insert another null in the queue which will act as the pivot for printing new line.
-     *
+     * <p/>
      * time complexity is O(n) as we have to visit each node.
      * Space complexity is O(n) as the queue may have all the leaf nodes at a time.
+     * Result:
+     * 10
+     * -10 20
+     * 0 15 30
+     * -5 5 27
      *
      * @param root
      */

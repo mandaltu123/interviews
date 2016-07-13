@@ -75,7 +75,6 @@ public class SpiralOrderTraversal {
         root = bTree.addNode(root, 30);
         root = bTree.addNode(root, 5);
         root = bTree.addNode(root, -10);
-        root = bTree.addNode(root, 20);
         root = bTree.addNode(root, -20);
         root = bTree.addNode(root, -4);
         root = bTree.addNode(root, 25);

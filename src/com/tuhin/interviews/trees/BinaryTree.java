@@ -13,11 +13,15 @@ class Node {
     Node left;
     Node right;
     int data;
+    int height;
+    int size;
 
     public Node(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
+        this.height = 1;
+        this.size = 1;
     }
 }
 

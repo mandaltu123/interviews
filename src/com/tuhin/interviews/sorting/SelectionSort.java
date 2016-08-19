@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Selection sort can be considered as the re-arranging a dec kof cards.
+ *
  * We take the first element (i in the outer for loop) and consider that to be the minimum element in the array.
  * now we keep looking at all the element and check if any element is lesser than that element or not.
  * if we find an element smaller than the min (previously chosen) then we make that as min element.In each iteration

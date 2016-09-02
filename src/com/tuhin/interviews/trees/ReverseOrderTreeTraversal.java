@@ -47,11 +47,12 @@ public class ReverseOrderTreeTraversal {
             root = queue.poll();
             if (root != null) {
                 stack.push(root);
-                if (root.left != null) {
-                    queue.add(root.left);
-                }
+                //we need to push the right element first. think about it a little bit you will understand why :)
                 if (root.right != null) {
                     queue.add(root.right);
+                }
+                if (root.left != null) {
+                    queue.add(root.left);
                 }
             }
         }

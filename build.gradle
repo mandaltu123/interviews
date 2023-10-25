@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    // Add any other dependencies you need here
+}
